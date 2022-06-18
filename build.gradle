@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 buildscript {
     dependencies {
         classpath 'com.google.gms:google-services:4.3.3'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
-=======
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
 
@@ -17,7 +17,7 @@ buildscript {
     }
 }
 
->>>>>>> eliud
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
