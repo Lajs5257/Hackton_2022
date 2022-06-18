@@ -24,29 +24,24 @@ public class MainActivity3 extends AppCompatActivity {
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
+            Fragment fragment = null;
                 switch (item.getItemId()) {
-
                     case R.id.ActDisponibles:
-                        replaceFragment(new PrimerFragment());
+                        fragment = new PrimerFragment();
                         break;
                     case R.id.ActAsignadas:
-                        replaceFragment(new SegundoFragment());
+                        fragment = new SegundoFragment();
                         break;
                     case R.id.actHistorial:
-                        replaceFragment(new TercerFragment());
+                        fragment = new TercerFragment();
                         break;
                 }
+                getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, fragment).commit();
 
                 return true;
             }
         });
     }
 
-    private void replaceFragment(Fragment fragment){
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frame_layout, fragment);
-        fragmentTransaction.commit();
-    }
+
 }
