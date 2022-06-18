@@ -19,6 +19,9 @@ package="com.example.hackton_2022">
         android:name=".MainActivity2"
         android:exported="false" />
     <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+    <activity
         android:name=".Descripcion"
         android:exported="false" />
     <activity

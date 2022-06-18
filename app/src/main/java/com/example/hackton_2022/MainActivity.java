@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@androidx.annotation.NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(MainActivity.this, "Successfully signed in", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this,MainActivity2.class));
+                        startActivity(new Intent(MainActivity.this,MainActivity3.class));
                         navigateToSecondActivity();
                     }
                     else{

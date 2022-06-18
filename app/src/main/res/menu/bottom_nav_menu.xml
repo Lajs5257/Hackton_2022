@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Act. Disponibles"
+          android:icon="@drawable/ic_playlist_add_24"
+          android:id="@+id/ActDisponibles"/>
+
+    <item android:title="Act. Asignadas"
+          android:icon="@drawable/ic_list_24"
+          android:id="@+id/ActAsignadas"/>
+
+    <item android:title="Historial de Act."
+          android:icon="@drawable/ic_history_24"
+          android:id="@+id/actHistorial"/>
+</menu>
