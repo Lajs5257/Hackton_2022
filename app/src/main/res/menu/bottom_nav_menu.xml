@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Act. Disponibles"
-          android:icon="@drawable/ic_playlist_add_24"
-          android:id="@+id/ActDisponibles"/>
+    <item
+        android:id="@+id/ActDisponibles"
+        android:icon="@drawable/ic_playlist_add_24"
+        android:title="Act. Disponibles" />
 
-    <item android:title="Act. Asignadas"
-          android:icon="@drawable/ic_list_24"
-          android:id="@+id/ActAsignadas"/>
+    <item
+        android:id="@+id/ActAsignadas"
+        android:icon="@drawable/ic_list_24"
+        android:title="Act. Asignadas" />
 
-    <item android:title="Historial de Act."
-          android:icon="@drawable/ic_history_24"
-          android:id="@+id/actHistorial"/>
+    <item
+        android:id="@+id/actHistorial"
+        android:icon="@drawable/ic_history_24"
+        android:title="Historial de Act." />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
 </menu>

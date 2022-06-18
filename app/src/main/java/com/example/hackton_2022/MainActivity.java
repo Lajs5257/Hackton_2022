@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
         if (acct != null) {
-                signIn();
+                navigateToSecondActivity();
             }
         googleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@androidx.annotation.NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(MainActivity.this, "Successfully signed in", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this,MainActivity3.class));
-                        navigateToSecondActivity();
+                        Intent intent = new Intent(MainActivity.this,MainActivity3.class);
+                        startActivity(intent);
                     }
                     else{
                         Toast.makeText(MainActivity.this, "Sign in failed", Toast.LENGTH_SHORT).show();
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
     void navigateToSecondActivity(){
         finish();
-        Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+        Intent intent = new Intent(MainActivity.this,MainActivity3.class);
         startActivity(intent);
     }
 }
