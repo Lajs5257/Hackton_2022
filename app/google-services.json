@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066078104761",
+    "project_id": "hackdgo",
+    "storage_bucket": "hackdgo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066078104761:android:c70abd147a0ce85b20ff68",
+        "android_client_info": {
+          "package_name": "com.example.hackton_2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066078104761-465mlsj7o45ch77u4mk9a5vqf4t5pbqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKaOpVlOfaejIek7AEGo4-UOYXafA5aPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066078104761-465mlsj7o45ch77u4mk9a5vqf4t5pbqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

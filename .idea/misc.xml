@@ -4,6 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rocre/Desktop/Hackton_2022/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.16171875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.1413934426229508" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_actividades_admin.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_descripcion.xml" value="0.4" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_login.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_maps.xml" value="0.264" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_otra.xml" value="0.264" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_prueba.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/activity_prueba_scroll.xml" value="0.264" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/content_otra.xml" value="0.2" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/content_scrolling.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/fragment_first.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/fragment_first2.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/fragment_second.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/fragment_second2.xml" value="0.1875" />
+        <entry key="..\:/Users/rocre/Desktop/prueba/Hackton_2022/app/src/main/res/layout/item_rv_usuarios.xml" value="0.1875" />
       </map>
     </option>
   </component>
