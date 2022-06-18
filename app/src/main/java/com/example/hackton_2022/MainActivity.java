@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private String TAG ="MainActivity";
     private FirebaseAuth mAuth;
     private Button btnsignout;
-    private int RC_SIGN_IN =1;
+    private int RC_SIGN_IN =1000;
     ImageView googleBtn;
 
     @Override
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@androidx.annotation.NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(MainActivity.this, "Successfully signed in", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this,MainActivity2.class));
+                        startActivity(new Intent(MainActivity.this,MainActivity3.class));
                         navigateToSecondActivity();
                     }
                     else{
