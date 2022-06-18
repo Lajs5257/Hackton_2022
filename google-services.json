@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130554452623",
+    "project_id": "ecoactivity-427b7",
+    "storage_bucket": "ecoactivity-427b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130554452623:android:70e8502718c8df1bb3aefa",
+        "android_client_info": {
+          "package_name": "com.example.hackton_2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130554452623-40dmo57v5uerp4316jnlpc9cdhumjmvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackton_2022",
+            "certificate_hash": "f6a0852aeebdc265892b48ab52ae98e76b77996b"
+          }
+        },
+        {
+          "client_id": "130554452623-328qe334m3aj096prba00658edj1bveu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGH9V_yRJSJTofnkRh57oNbbd4LZmwaZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130554452623-328qe334m3aj096prba00658edj1bveu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
