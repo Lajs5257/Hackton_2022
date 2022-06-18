@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity2 extends AppCompatActivity {
     TextView name, email;
-    Button signOutBtn, bt2;
+    Button signOutBtn, bt2,bt3;
     private GoogleSignInClient mGoogleSignInClient;
     private String TAG = "MainActivity";
     private FirebaseAuth mAuth;
@@ -31,6 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         signOutBtn = findViewById(R.id.signout);
         bt2 = findViewById(R.id.btn2);
+        bt3 = findViewById(R.id.btn3);
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
         mAuth = FirebaseAuth.getInstance();
@@ -58,6 +59,14 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, Prueba_Scroll.class);
+                startActivity(intent);
+            }
+        });
+
+        bt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
                 startActivity(intent);
             }
         });
