@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private String TAG ="MainActivity";
     private FirebaseAuth mAuth;
     private Button btnsignout;
-    private int RC_SIGN_IN =1;
+    private int RC_SIGN_IN =1000;
     ImageView googleBtn;
 
     @Override
