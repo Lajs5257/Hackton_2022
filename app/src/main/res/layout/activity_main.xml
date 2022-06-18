@@ -6,6 +6,7 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
