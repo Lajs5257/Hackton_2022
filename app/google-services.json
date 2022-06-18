@@ -1,30 +1,22 @@
 {
   "project_info": {
-<<<<<<< HEAD
     "project_number": "130554452623",
     "project_id": "ecoactivity-427b7",
     "storage_bucket": "ecoactivity-427b7.appspot.com"
-=======
-    "project_number": "1066078104761",
-    "project_id": "hackdgo",
-    "storage_bucket": "hackdgo.appspot.com"
->>>>>>> eliud
+
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
         "mobilesdk_app_id": "1:130554452623:android:70e8502718c8df1bb3aefa",
-=======
-        "mobilesdk_app_id": "1:1066078104761:android:c70abd147a0ce85b20ff68",
->>>>>>> eliud
+
         "android_client_info": {
           "package_name": "com.example.hackton_2022"
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
+
           "client_id": "130554452623-40dmo57v5uerp4316jnlpc9cdhumjmvl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -34,30 +26,20 @@
         },
         {
           "client_id": "130554452623-328qe334m3aj096prba00658edj1bveu.apps.googleusercontent.com",
-=======
-          "client_id": "1066078104761-465mlsj7o45ch77u4mk9a5vqf4t5pbqj.apps.googleusercontent.com",
->>>>>>> eliud
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
           "current_key": "AIzaSyAGH9V_yRJSJTofnkRh57oNbbd4LZmwaZ8"
-=======
-          "current_key": "AIzaSyBKaOpVlOfaejIek7AEGo4-UOYXafA5aPE"
->>>>>>> eliud
+
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-<<<<<<< HEAD
               "client_id": "130554452623-328qe334m3aj096prba00658edj1bveu.apps.googleusercontent.com",
-=======
-              "client_id": "1066078104761-465mlsj7o45ch77u4mk9a5vqf4t5pbqj.apps.googleusercontent.com",
->>>>>>> eliud
               "client_type": 3
             }
           ]

@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         googleBtn = findViewById(R.id.google_btn);
         
         mAuth = FirebaseAuth.getInstance();
-
+        Toast.makeText(this, "Welcome", Toast.LENGTH_SHORT).show();
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
             FirebaseGoogleAuth(account);
         } catch (ApiException e) {
             Toast.makeText(this, "Google sign in failed:(", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
             FirebaseGoogleAuth(null);
         }
     }
