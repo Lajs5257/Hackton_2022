@@ -3,10 +3,12 @@ package com.example.hackton_2022;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +44,34 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button btn_login = findViewById(R.id.loginbtn);
+
+        btn_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText usuario = (EditText) findViewById(R.id.username);
+                String user = usuario.getText().toString().trim();
+
+                EditText contra = (EditText) findViewById(R.id.password);
+                String pass = contra.getText().toString().trim();
+
+                String us = "prueba";
+                String cont = "123";
+
+
+                    Context context = getApplicationContext();
+                    CharSequence text = "Bienvenido";
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
+
+                    Intent intent = new Intent (v.getContext(), Admin.class);
+                    startActivityForResult(intent, 0);
+            }
+        });
+
         googleBtn = findViewById(R.id.google_btn);
         
         mAuth = FirebaseAuth.getInstance();

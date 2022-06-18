@@ -32,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity {
         signOutBtn = findViewById(R.id.signout);
         bt2 = findViewById(R.id.btn2);
         bt3 = findViewById(R.id.btn3);
-        name = findViewById(R.id.name);
+        name = findViewById(R.id.nameAd);
         email = findViewById(R.id.email);
         mAuth = FirebaseAuth.getInstance();
 
